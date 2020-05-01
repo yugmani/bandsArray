@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bands Array</title>
+</head>
+<body>
+    <script>
+        var allBands = [ "the teatles", "led zeppelin", "the rolling", "pink floyd", "metallica" ]
+        
+        var fav = prompt("What is your favorite Band?");
+        var favBand = fav.toLowerCase();
+
+        if(allBands.indexOf(favBand) === -1){
+            alert("Nah. They're pretty lame.");
+            
+        }
+        else {
+            alert("YEAH i LOVE THEM!");
+            alert("Index of "+ fav + " " + allBands.indexOf(favBand));
+        }
+    </script>
+</body>
+</html>
